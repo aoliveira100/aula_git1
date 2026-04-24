@@ -10,4 +10,9 @@ public class Produto {
    public void exibirInfo() {
        System.out.println("Produto: " + nome + " - Preço: " + preco);
    }
+
+   public void aplicarDesconto(double percentual) {
+   this.preco -= this.preco * percentual / 100;
+}
+
 }
