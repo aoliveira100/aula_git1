@@ -11,8 +11,12 @@ public class Produto {
        System.out.println("Produto: " + nome + " - Preço: " + preco);
    }
 
-   public void aplicarDescontoPercentual(double percentual) {
-   this.preco -= this.preco * percentual / 100;
-}
+   public void aplicarDescontoPercentualCerto(double percentual) {
+        this.preco -= this.preco * percentual / 100;
+   }
+
+   public void imprimir(double percentual) {
+        System.out.println("Perc: " + percentual);
+   }
 
 }
