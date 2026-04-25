@@ -11,18 +11,8 @@ public class Produto {
        System.out.println("Produto: " + nome + " - Preço: " + preco);
    }
 
-<<<<<<< HEAD
-   public void aplicarDescontoPercentualCRUD(double percentual) {
+   public void aplicarDescontoPercentualJoaoMartinho(double percentual) {
    this.preco -= this.preco * percentual / 100;
 }
-=======
-   public void aplicarDescontoPercentualCerto(double percentual) {
-        this.preco -= this.preco * percentual / 100;
-   }
-
-   public void imprimir(double percentual) {
-        System.out.println("Perc: " + percentual);
-   }
->>>>>>> crud-aluno-andre
 
 }
